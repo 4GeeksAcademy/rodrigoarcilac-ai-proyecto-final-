@@ -1,16 +1,25 @@
-# Your company context
+# Company context: HealthCore
 
-**Replace this file** with the CONTEXT for your assigned company:
+HealthCore is an outpatient healthcare services company founded in 2011 in Austin, Texas.
 
-- **Brasaland** — `CONTEXT-brasaland-briefing.md` (grilled food restaurant chain, Colombia + Florida)
-- **TrackFlow** — `CONTEXT-trackflow-briefing.md` (last-mile delivery and warehouse, Mexico + Spain)
-- **Nexova** — `CONTEXT-nexova-briefing.md` (HR consulting and talent acquisition, Chile + Argentina)
-- **HealthCore** — `CONTEXT-healthcore-briefing.md` (outpatient healthcare clinic network, US + UK)
+It operates a network of 12 outpatient clinics:
 
-Your instructor or milestone materials will point you to the correct CONTEXT file. Copy its contents here so that all project work and AI assistance use the same domain data, field names, and constraints.
+- 9 in the United States (Texas, Florida, and Georgia)
+- 3 in the United Kingdom (London and Manchester)
 
----
+Its core service offering includes:
 
-_Until you add your context, keep this placeholder so the repo structure is clear._
+- Primary care
+- Specialist consultations
+- Chronic disease management
+- Preventive health programs
 
-_Estas instrucciones también están disponibles en [español](./CONTEXT.es.md)._
+The company employs approximately 200 people and generates around 28 million USD in annual revenue.
+
+Its competitive advantage is accessibility:
+
+- Same-day appointments
+- Extended hours
+- Bilingual staff at US locations
+
+_Este contexto tambien esta disponible en [espanol](./CONTEXT.es.md)._
