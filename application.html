@@ -38,7 +38,7 @@
   </script>
 </head>
 <body class="min-h-full bg-slate-50 text-slate-800 antialiased opacity-0 transition-opacity duration-300 ease-out motion-reduce:opacity-100 motion-reduce:transition-none dark:bg-slate-950 dark:text-slate-100">
-  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-white focus:px-3 focus:py-2 focus:text-slate-900">Skip to content</a>
+  <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-white focus:px-3 focus:py-2 focus:text-slate-900" data-i18n="skip.content">Saltar al contenido</a>
 
   <header class="sticky top-0 z-40 border-b border-slate-200/80 bg-white/95 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95">
     <div class="mx-auto flex w-full max-w-6xl items-center justify-between gap-4 px-4 py-5 sm:px-6 lg:px-8">
@@ -164,8 +164,8 @@
           <fieldset class="rounded-lg border border-slate-200 p-4 dark:border-slate-700" aria-describedby="error-new_patient">
             <legend class="px-1 text-sm font-semibold text-slate-800 dark:text-slate-100" data-i18n="labels.new_patient">¿Es tu primera visita a HealthCore?</legend>
             <div class="mt-2 flex gap-6">
-              <label class="inline-flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200"><input type="radio" name="new_patient" value="Yes" class="h-4 w-4 border-slate-300 text-cyan-700 focus:ring-cyan-600">Yes</label>
-              <label class="inline-flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200"><input type="radio" name="new_patient" value="No" class="h-4 w-4 border-slate-300 text-cyan-700 focus:ring-cyan-600">No</label>
+              <label class="inline-flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200"><input type="radio" name="new_patient" value="Yes" class="h-4 w-4 border-slate-300 text-cyan-700 focus:ring-cyan-600"><span data-i18n="radio.yes">Sí</span></label>
+              <label class="inline-flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200"><input type="radio" name="new_patient" value="No" class="h-4 w-4 border-slate-300 text-cyan-700 focus:ring-cyan-600"><span data-i18n="radio.no">No</span></label>
             </div>
             <p id="error-new_patient" class="mt-2 text-sm text-rose-700" aria-live="polite"></p>
           </fieldset>
@@ -173,16 +173,16 @@
           <fieldset class="rounded-lg border border-slate-200 p-4 dark:border-slate-700" aria-describedby="error-has_insurance">
             <legend class="px-1 text-sm font-semibold text-slate-800 dark:text-slate-100" data-i18n="labels.has_insurance">¿Tienes seguro médico?</legend>
             <div class="mt-2 flex gap-6">
-              <label class="inline-flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200"><input type="radio" name="has_insurance" value="Yes" class="h-4 w-4 border-slate-300 text-cyan-700 focus:ring-cyan-600">Yes</label>
-              <label class="inline-flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200"><input type="radio" name="has_insurance" value="No" class="h-4 w-4 border-slate-300 text-cyan-700 focus:ring-cyan-600">No</label>
+              <label class="inline-flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200"><input type="radio" name="has_insurance" value="Yes" class="h-4 w-4 border-slate-300 text-cyan-700 focus:ring-cyan-600"><span data-i18n="radio.yes">Sí</span></label>
+              <label class="inline-flex items-center gap-2 text-sm text-slate-700 dark:text-slate-200"><input type="radio" name="has_insurance" value="No" class="h-4 w-4 border-slate-300 text-cyan-700 focus:ring-cyan-600"><span data-i18n="radio.no">No</span></label>
             </div>
             <p id="error-has_insurance" class="mt-2 text-sm text-rose-700" aria-live="polite"></p>
           </fieldset>
 
           <div id="patient-id-wrapper" class="hidden">
-            <label for="patient_id" class="mb-1 block text-sm font-semibold text-slate-800 dark:text-slate-100">Patient ID (optional)</label>
+            <label for="patient_id" class="mb-1 block text-sm font-semibold text-slate-800 dark:text-slate-100" data-i18n="labels.patient_id">ID de paciente (opcional)</label>
             <input id="patient_id" name="patient_id" type="text" class="w-full rounded-lg border border-slate-300 px-3 py-2.5 text-sm text-slate-800 shadow-sm focus:border-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-200 dark:border-slate-700 dark:bg-slate-950 dark:text-slate-100" aria-describedby="error-patient_id">
-            <p class="mt-1 text-xs text-slate-500 dark:text-slate-400">Format: HC- + 6 alphanumeric characters.</p>
+            <p class="mt-1 text-xs text-slate-500 dark:text-slate-400" data-i18n="help.patient_id">Formato: HC- + 6 caracteres alfanuméricos.</p>
             <p id="error-patient_id" class="mt-1 text-sm text-rose-700" aria-live="polite"></p>
           </div>
 
